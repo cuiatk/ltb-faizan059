@@ -38,7 +38,7 @@ public class Customer {
 		 * calculated prices, and rental points of that person.
 		 */
 		
-		public String statement() {
+		 public String statement() {
 			double totalAmount = 0;
 			int frequentRenterPoints = 0;
 			Enumeration rentals = _rentals.elements();
